@@ -25,3 +25,6 @@ Introducción a Solidity con ejemplos simples. (Versión en español de https://
       - Se almacena en la blockchain
     - global
       - Proveen información sobre la blockchain
+- Constantes
+  - Son variables que no pueden ser modificadas.
+  - Su valor esta definido manualmente y puede reducir costos de gas.
