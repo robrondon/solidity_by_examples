@@ -36,3 +36,15 @@ Introducción a Solidity con ejemplos simples. (Versión en español de https://
 - Ether y Wei
   - Las transacciones se pagan con ether.
   - De manera similar a que 1 dólar son 100 centavos, 1 ether es igual a 10^18 wei.
+- Gas
+  - ¿Cuanto ether necesitas pagar por transacción?
+    - Pagas gas usado \* precio del gas en ether donde:
+      - gas, es una unidad de computo.
+      - gas usado, es el total de gas usado en una transacción.
+      - precio del gas, es cuánto ether estas dispuesto a pagar por unidad de gas.
+    - Transacciones con un mayor precio del gas tienen una mayor prioridad de ser incluida en un bloque.
+    - Gas no utilizado será devuelto.
+  - Límite de gas
+    - Hay 2 límites superiores a la cantidad de gas que puedes gastar:
+      - límite de gas (máxima cantidad de gas que estás dispuesto a usar en tu transacción, definido por ti)
+      - limite de gas del bloque (máxima cantidad de gas permitido en un bloque, definido por la red)
