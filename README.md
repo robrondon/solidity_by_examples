@@ -30,3 +30,6 @@ Introducción a Solidity con ejemplos simples. (Versión en español de https://
   - Su valor esta definido manualmente y puede reducir costos de gas.
 - Inmutables
   - Las variables inmutables son parecidas a las constantes. Los valores de las variables inmutables pueder ser definidos dentro del constructor pero no podrán ser modificados despues de eso.
+- Leer y Escribir Variables de Estado
+  - Para escribir o actualizar una variable de estado, debes enviar una transacción.
+  - Por otra parte, puedes leer variables de estado de manera gratuita sin costos de transacción.
