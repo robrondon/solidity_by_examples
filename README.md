@@ -33,3 +33,6 @@ Introducción a Solidity con ejemplos simples. (Versión en español de https://
 - Leer y Escribir Variables de Estado
   - Para escribir o actualizar una variable de estado, debes enviar una transacción.
   - Por otra parte, puedes leer variables de estado de manera gratuita sin costos de transacción.
+- Ether y Wei
+  - Las transacciones se pagan con ether.
+  - De manera similar a que 1 dólar son 100 centavos, 1 ether es igual a 10^18 wei.
