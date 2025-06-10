@@ -50,3 +50,7 @@ Introducción a Solidity con ejemplos simples. (Versión en español de https://
       - limite de gas del bloque (máxima cantidad de gas permitido en un bloque, definido por la red)
 - Condicionales (if/else)
   - Solidity admite las declaraciones condicionales if, else if, else.
+- Ciclos (for/while)
+  - Solidity admite los ciclos for, while y do while.
+  - No escriba bucles sin límites ya que esto puede alcanzar el límite de gas y provocar que la transacción falle.
+  - Por este motivo los ciclos while y do while son raramente usados
