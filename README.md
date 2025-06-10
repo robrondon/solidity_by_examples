@@ -54,3 +54,8 @@ Introducción a Solidity con ejemplos simples. (Versión en español de https://
   - Solidity admite los ciclos for, while y do while.
   - No escriba bucles sin límites ya que esto puede alcanzar el límite de gas y provocar que la transacción falle.
   - Por este motivo los ciclos while y do while son raramente usados
+- Mapeos
+  - Los mapeos son creados con la sintaxis mapping(keyType => valueType).
+  - El keyType puede ser cualquier tipo nativo, bytes, string u otro contrato.
+  - El valueType puede ser cualquier tipo incluyendo otros mappings o un array.
+  - Los mapeos (mapping) no son iterables.
