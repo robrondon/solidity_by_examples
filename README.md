@@ -48,3 +48,5 @@ Introducción a Solidity con ejemplos simples. (Versión en español de https://
     - Hay 2 límites superiores a la cantidad de gas que puedes gastar:
       - límite de gas (máxima cantidad de gas que estás dispuesto a usar en tu transacción, definido por ti)
       - limite de gas del bloque (máxima cantidad de gas permitido en un bloque, definido por la red)
+- Condicionales (if/else)
+  - Solidity admite las declaraciones condicionales if, else if, else.
