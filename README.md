@@ -59,3 +59,8 @@ Introducción a Solidity con ejemplos simples. (Versión en español de https://
   - El keyType puede ser cualquier tipo nativo, bytes, string u otro contrato.
   - El valueType puede ser cualquier tipo incluyendo otros mappings o un array.
   - Los mapeos (mapping) no son iterables.
+- Arrays
+  - Un array puede tener un tamaño de compilación fijo o ser un array dinámico.
+  - Ejemplos para eliminar elementos de un array
+    - Eliminar un elemento intercambiando elementos de derecha a izquierda
+    - Eliminar un elemento copiando el último elemento en el lugar a eliminar
