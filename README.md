@@ -64,3 +64,6 @@ Introducción a Solidity con ejemplos simples. (Versión en español de https://
   - Ejemplos para eliminar elementos de un array
     - Eliminar un elemento intercambiando elementos de derecha a izquierda
     - Eliminar un elemento copiando el último elemento en el lugar a eliminar
+- Enumeradores
+  - Solidity soporta enumeradores (enum) y estos son útiles para modelar opciones y hacer seguimiento de estados.
+  - Los enumeradores pueden ser declarados afuera de un contrato.
