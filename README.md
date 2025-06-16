@@ -68,3 +68,7 @@ Introducción a Solidity con ejemplos simples. (Versión en español de https://
   - Solidity soporta enumeradores (enum) y estos son útiles para modelar opciones y hacer seguimiento de estados.
   - Los enumeradores pueden ser declarados afuera de un contrato.
 - Tipo de valores definidos por el usuario
+- Structs
+  - Puedes crear tus propios tipos usando un struct.
+  - Son utiles para agrugar informacion relacionada.
+  - Los structs pueden ser declarados fuera de un contrato y ser importado en otro contrato.
